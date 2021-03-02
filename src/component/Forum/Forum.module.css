@@ -1,0 +1,30 @@
+.Forum {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+.ForumCentar {
+  display: flex;
+}
+
+.Background {
+  background-color: #fafafa;
+}
+
+.Forum {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+
+.ForumCentar {
+  display: flex;
+}
+
+.Background {
+  background-color: #fafafa;
+}

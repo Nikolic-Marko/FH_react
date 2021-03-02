@@ -1,0 +1,155 @@
+body{
+  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+}
+
+.najcesca-pitanja::before,
+.najcesca-pitanja::after {
+  box-sizing: inherit;
+}
+
+.najcesca-pitanja {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Gilroy-Light', sans-serif;
+  font-size: 20px;
+  color: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+}
+
+.najcesca-pitanja-naslov {
+  text-align: center;
+  color: #00ffa3;
+  font-size: 50px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.najcesca-pitanja-container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.najcesca-pitanja-row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+}
+
+.najcesce-pitanje {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  width: 45%;
+  margin: 10px 20px;
+  height: 100px;
+  transition: height 750ms;
+}
+
+.krug-zatvoreno-pitanje {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  margin-left: 20px;
+}
+
+.krug-otvoreno-pitanje {
+  width: 30px;
+  height: 30px;
+  background-color: #00ffa3;
+  border-radius: 50%;
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  margin-left: 20px;
+  display: none;
+}
+
+.pitanje-link {
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.pitanje-tekst {
+  background-color: whitesmoke;
+  margin-right: 20px;
+  width: 90%;
+}
+
+.odgovor {
+  margin-top: 5px;
+  background-color: whitesmoke;
+  height: 0px;
+  overflow: hidden;
+  position: relative;
+  transition: height 750ms;
+}
+
+.odgovor::before {
+  transform: translateY(-50%);
+}
+
+.odgovor p {
+  font-size: 15px;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.najcesce-pitanje:hover {
+  height: 240px;
+}
+.najcesce-pitanje:hover .odgovor {
+  height: 150px;
+}
+
+.najcesce-pitanje:hover .pitanje-link .krug-zatvoreno-pitanje {
+  display: none;
+}
+
+.najcesce-pitanje:hover  .pitanje-link .krug-otvoreno-pitanje {
+  display: block;
+}
+
+@media screen and (max-width: 1152px) {
+  .najcesce-pitanje {
+    width: 100%;
+  }
+  .najcesce-pitanje:hover {
+    height: 220px;
+  }
+  .najcesce-pitanje:hover .odgovor {
+    height: 110px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .najcesce-pitanje {
+    width: 100%;
+  }
+  .najcesce-pitanje:hover {
+    height: 440px;
+  }
+  .najcesce-pitanje:hover .odgovor {
+    height: 290px;
+  }
+  .pitanje-tekst {
+    height: 55px;
+  }
+}

@@ -1,0 +1,120 @@
+/*******partneri*************/
+.partneri {
+  width: 100%;
+  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.naslov-partneri {
+  color: #00ffa3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.naslov {
+  text-align: center;
+  font-family: Gilroy-ExtraBold, sans-serif;
+  color: #00ffa3;
+  font-size: 50px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+.generalni-partneri{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.robni-partneri{
+  justify-content:space-between;
+}
+.robni-partneri .sponzor-slika{
+  height: 120px;
+}
+
+.sponzor-slika{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 180px;
+  margin:20px;
+  box-shadow: 5px 10px 18px #000;
+}
+.sponzor-slika img{
+  width: auto;
+  height: 90%;
+}
+/*****slider***********/
+.slider{
+  width: 90%;
+  margin: 20px;
+}
+.card{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 120px;
+  box-shadow: 5px 10px 18px #000;
+  margin-left: 20px;
+}
+.card img {
+  width: auto;
+  height: 80%;
+}
+
+@media (max-width: 1024px) {
+  .slider{
+    width: 90%;
+  }
+  .robni-partneri{
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  
+  .generalni-partneri{
+    flex-direction: column;
+  }
+  .card{
+    width: 200px;
+    margin-left:20px;
+  }
+}
+@media (max-width: 700px) {
+  .slider{
+    width: 90%;
+  }
+  .card{
+    width: 200px;
+  } 
+}
+@media (max-width: 450px) {
+  .sponzor-slika{
+    width: 350px;
+    height: 180px;
+  }
+  .card{
+    width: 150px;
+  }
+  .card img {
+    width: auto;
+    height: 60%;
+  }
+}

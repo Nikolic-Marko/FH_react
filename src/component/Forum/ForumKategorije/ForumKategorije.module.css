@@ -1,0 +1,18 @@
+.ForumKategorije {
+  width: 50%;
+  padding: 1rem 0 0 0;
+}
+
+.Content {
+  width: 75%;
+}
+
+.Content h3 {
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.Content p {
+  margin: 0;
+  padding: 0;
+}

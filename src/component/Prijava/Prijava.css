@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.posaljiBtn h2{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+@font-face{
+    font-family: digital;
+    src:url('digital.ttf');
+}
+
+:root{
+    --zelena-boja:rgb(0, 255, 163);
+}
+
+main{
+    background-color: rgb(22,22,22);
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    min-height: 100vh;
+}
+
+.naslov-prijave{
+    color:white;
+    padding: 10px 0px;
+    border-bottom: 1.5px solid var(--zelena-boja);
+}
+
+.naslov-prijave > h1{
+    font-size: 1.2rem;
+    text-align:center;
+    padding: 5px 10px;
+}
+
+.brojac-container > h1{
+    font-size: 1.2rem;
+    text-align:center;
+    padding: 20px;
+}
+
+.brojac-container .brojac{
+    color:var(--zelena-boja);
+    font-family: digital;
+    font-weight: 100;
+    font-size: 6rem;
+    letter-spacing: 0.4rem;
+    background-color: rgba(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 50px;
+
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
+}
+
+.normalFont{
+    font-size: 4rem;
+    opacity: 0.3;
+    font-family: digital;
+}
+
+#pravilnikA{
+    color: rgb(46, 154, 255);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .brojac-container .brojac{
+        font-size: 5rem;
+    }
+
+    .normalFont{
+        font-size: 2.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .brojac-container .brojac{
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        
+    }
+    .naslov-prijave > h1{
+        font-size: 1rem;
+    }
+
+    .normalFont{
+        font-size: 2rem;
+    }
+}
+
+
+.pitanja-container{
+    width:320px;
+    padding-top: 50px;
+    /* overflow: hidden; */
+
+}
+
+.stiklir{
+    width: 14vw;
+    height: 14vw;
+    min-width: 130px;
+    min-height: 130px;
+    margin:40px auto 20px auto;
+
+    background-size: contain;
+    background-image: url('./success.png');
+}
+
+.clanBroj{
+    color:var(--zelena-boja);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.sledecaStranaBtn{
+    width: 80%;
+    background-color: var(--zelena-boja);
+    text-align: center;
+    padding: 10px;
+    margin:50px auto;
+    font-size: 1.2rem;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0 100%, 0 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sledecaStranaBtn:hover{
+    background-color: black;
+}
+
+.prethodna{
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 10% 100%, 0 50%);
+}
+
+.saznali-container{
+    width: 100%;
+    margin:50px 0;
+    margin-top:90px;
+    padding: 20px 10px 0 10px;
+    color:var(--zelena-boja);
+    background-color: black;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
+    position: relative;
+    font-size: 1.1rem;
+}
+
+select{
+    border: none;
+    outline:none;
+    width: 100%;
+    color: var(--zelena-boja);
+    background-color: black;
+
+    font-size: 1.1rem;
+    margin-top:20px;
+    border-top: 1.2px solid var(--zelena-boja);
+}
+
+.saznali-container div.required{
+    top:5px;
+    right: 5px;
+}
+
+.pravilnik-container{
+    background-color: black;
+    color:var(--zelena-boja);
+    padding: 10px;
+    display: flex;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
+    margin:50px 0;
+    position: relative;
+}
+.pravilnik-container input{
+    margin:5px;
+}
+
+.pravilnik-container div.required{
+    top:5px;
+    right: 5px;
+}
+
+.pravilnik-container a{
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+#ucitavanjeDiv{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#rotirajuciKruzic{
+    background-image: url(loader.png);
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    animation: rotiranje 1.5s infinite ease-in-out;
+
+}
+
+
+@keyframes rotiranje{
+    
+      to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+}
+
