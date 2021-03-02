@@ -1,7 +1,7 @@
 /*******partneri*************/
 .partneri {
   width: 100%;
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background: rgba(30, 57, 79, 1);
   height: auto;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .naslov-partneri {
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
@@ -23,7 +23,7 @@
 .naslov {
   text-align: center;
   font-family: Gilroy-ExtraBold, sans-serif;
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
   font-size: 50px;
   margin-bottom: 50px;
   padding-top: 80px;

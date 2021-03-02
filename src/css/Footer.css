@@ -3,8 +3,8 @@
     padding: 20px;
     display: flex;
     
-    border-top: 1px solid #00ffa3;
-    background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+    border-top: 1px solid rgba(66, 189, 222, 1);
+    background: rgba(30, 57, 79, 1);
 }
 
 .logoSection{
@@ -24,7 +24,7 @@
 }
 
 .locationSection h1{
-    color: #00ffa3;
+    color: rgba(66, 189, 222, 1);
     margin-bottom: 8px;
     font-size: 20px;
 }
@@ -38,7 +38,7 @@
     text-align: justify;
 }
 .contactSection h1{
-    color: #00ffa3;
+    color: rgba(66, 189, 222, 1);
     margin-bottom: 8px;
     font-size: 20px;
 }

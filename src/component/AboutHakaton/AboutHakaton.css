@@ -2,7 +2,7 @@
     width: 100%;
     margin: 5px 0 30px 0;
     display: flex;
-    background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+    background: rgba(30, 57, 79, 1);
     height: 100vh;
 }
 
@@ -28,19 +28,19 @@
     margin-top: 0;
     padding-left: 10%;
     font-size: 18px;
-    border-left: #00ffa3 solid 3px;
+    border-left: rgba(66, 189, 222, 1) solid 3px;
     color: white;
 }
 
 .textSection h1 {
-    color: #00ffa3;
+    color: rgba(66, 189, 222, 1);
 }
 
 .textSection hr {
     width: 74%;
     height: 3px;
     margin-left: 20%;
-    background-color: #00ffa3;
+    background-color: rgba(66, 189, 222, 1);
     box-shadow: none;
     border: none;
 }
@@ -78,7 +78,7 @@
 @media only screen and (max-width: 700px) {
     .textSection {
         font-size: 10px;
-        border-left: #00ffa3 solid 1px;
+        border-left: rgba(66, 189, 222, 1) solid 1px;
     }
 
     .textSection h1 {
@@ -120,19 +120,19 @@
         margin-top: 10%;
         padding-left: 10%;
         font-size: 14px;
-        border-left: #00ffa3 solid 3px;
+        border-left: rgba(66, 189, 222, 1) solid 3px;
         color: white;
     }
 
     .textSection h1 {
-        color: #00ffa3;
+        color: rgba(66, 189, 222, 1);
     }
 
     .textSection hr {
         width: 85%;
         height: 1px;
         margin-left: 20%;
-        background-color: #00ffa3;
+        background-color: rgba(66, 189, 222, 1);
     }
 
 }
@@ -144,7 +144,7 @@
 
 
 #nas-tim {
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%); /**/
+  background: rgba(30, 57, 79, 1); /**/
 }
 
 .nas-tim-naslov {
@@ -155,7 +155,7 @@
 }
 
 .nas-tim-span {
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
 }
 
 .row {
@@ -174,7 +174,7 @@
   margin: 20px 10px 10px 10px;
   background-color: white;
   margin-bottom: 200px;
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background: rgba(30, 57, 79, 1);
 }
 
 .kartica-sadrzaj {

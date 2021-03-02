@@ -13,8 +13,8 @@ import "react-vertical-timeline-component/style.min.css";
 import { alignPropType } from "react-bootstrap/esm/DropdownMenu";
 
 function TimeLine() {
-    let workIconStyles = { background: "#00ffa3", alignPropType: "right" };
-    let schoolIconStyles = { background: "#00ffa3", alignPropType: "left" };
+    let workIconStyles = { background: "rgba(66, 189, 222, 1)", alignPropType: "right" };
+    let schoolIconStyles = { background: "rgba(66, 189, 222, 1)", alignPropType: "left" };
 
     return (
         <div className="timeLineWrap" id="timeline">
@@ -26,11 +26,11 @@ function TimeLine() {
                         <VerticalTimelineElement
                             key={element.key}
                             contentStyle={{
-                                background: "linear-gradient(90deg, #1E394F 0%, #112D3D 100%)",
+                                background: "rgba(30, 57, 79, 1)",
                                 color: "#fff",
                             }}
                             contentArrowStyle={{
-                                borderRight: "7px solid  linear-gradient(90deg, #1E394F 0%, #112D3D 100%)",
+                                borderRight: "7px solid  rgba(30, 57, 79, 1)",
                             }}
                             iconStyle={
                                 isWorkIcon ? workIconStyles : schoolIconStyles

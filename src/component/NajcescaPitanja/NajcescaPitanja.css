@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background: rgba(30, 57, 79, 1);
 }
 
 .najcesca-pitanja::before,
@@ -13,13 +13,13 @@ body{
   height: 100vh;
   font-family: 'Gilroy-Light', sans-serif;
   font-size: 20px;
-  color: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  color: rgba(30, 57, 79, 1);
+  background: rgba(30, 57, 79, 1);
 }
 
 .najcesca-pitanja-naslov {
   text-align: center;
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
   font-size: 50px;
   margin-bottom: 50px;
   padding-top: 100px;
@@ -67,7 +67,7 @@ body{
 .krug-otvoreno-pitanje {
   width: 30px;
   height: 30px;
-  background-color: #00ffa3;
+  background-color: rgba(66, 189, 222, 1);
   border-radius: 50%;
   position: absolute;
   top: 27px;

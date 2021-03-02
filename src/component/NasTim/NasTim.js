@@ -13,7 +13,7 @@ import Tijana from './img/TijanaBelo.png'
 import Nastasja from './img/NastasjaBelo.png'
 import Sasa from './img/SasaBelo.png'
 import Kosta from './img/KostaBelo.png'
-import Marko from './img/MarkoBelo.png'
+import Marko from './img/MareBelo.png'
 
 const NasTim = () => {
     const responsive = {

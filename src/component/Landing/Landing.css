@@ -1,18 +1,18 @@
 ::-webkit-scrollbar-track {
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background-color: rgba(30, 57, 79, 1);
 }
 
 ::-webkit-scrollbar {
   width: 7px;
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background-color: rgba(30, 57, 79, 1);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #00ffa3;
+  background-color: rgba(66, 189, 222, 1);
 }
 
 .homepage {
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background-color: rgba(30, 57, 79, 1);
   z-index: 1s;
   height: calc(100vh - 100px);
   display: flex;
@@ -38,7 +38,7 @@
   font-size: 14px;
   width: 180px;
   height: 40px;
-  background-color: #00ffa3;
+  background-color: rgba(66, 189, 222, 1);
   margin-top: 20px;
 }
 
@@ -62,7 +62,7 @@
 
 #timer {
   font-size: 20px;
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
 }
 
 .dugmici-mreze {
@@ -225,7 +225,7 @@
   letter-spacing: 6px;
   margin-bottom: 30px;
   overflow: hidden;
-  background: linear-gradient(90deg, #00ffa3, #fff, #00ffa3);
+  background: linear-gradient(90deg, rgba(66, 189, 222, 1), #fff, rgba(66, 189, 222, 1));
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 4s linear;
@@ -255,7 +255,7 @@
 /*******partneri*************/
 .partners {
   width: 100%;
-  background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+  background-color: rgba(30, 57, 79, 1);
   height: auto;
   display: flex;
   justify-content: center;
@@ -281,13 +281,13 @@
 }
 
 .linija-partneri {
-  background-color: #00ffa3;
+  background-color: rgba(66, 189, 222, 1);
   width: 150px;
-  border: 1px solid #00ffa3;
+  border: 1px solid rgba(66, 189, 222, 1);
 }
 
 .naslov-partneri {
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
   margin-top: 20px;
   font-size: 18px;
 }
@@ -341,7 +341,7 @@
 
 .slick-dots li.slick-active button:before,
 .slick-dots li button:before {
-  color: #00ffa3;
+  color: rgba(66, 189, 222, 1);
   opacity: 1;
   font-size: 16px;
 }
@@ -351,7 +351,7 @@
   width: 30px;
   margin: 0;
   padding: 0;
-  background-color: #00ffa3;
+  background-color: rgba(66, 189, 222, 1);
 }
 
 .slick-dots li.slick-active button:before {
@@ -410,10 +410,10 @@
   height: 80vh;
   display: block;
 }
-/* 
+
 .clouds {
   background: transparent url(img/clouds5.png) repeat top center;
-  background: transparent url(img/oblaciljubicasta.png) repeat top center; 
+  /* background: transparent url(img/oblaciljubicasta.png) repeat top center; */
   z-index: 100;
 
   -moz-animation: move-clouds-back 200s linear infinite;
@@ -421,7 +421,7 @@
   -o-animation: move-clouds-back 200s linear infinite;
   -webkit-animation: move-clouds-back 200s linear infinite;
   animation: move-clouds-back 200s linear infinite;
-} */
+}
 
 /*****************************************************/
 
@@ -449,7 +449,7 @@
   }
 
   .homepage {
-    background: linear-gradient(90deg, #1E394F 0%, #112D3D 100%);
+    background-color: rgba(30, 57, 79, 1);
     display: flex;
     align-items: center;
     justify-content: center;
