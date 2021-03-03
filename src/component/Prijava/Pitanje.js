@@ -28,7 +28,7 @@ const Pitanje = ({ text, error, required }) => {
             <div ref={underlineRef} className="fake-underline"></div>
 
             {required &&
-                <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="#18EEA1" strokeWidth="1.4" /><path fill="#18EEA1" d="M9 14h2v2H9z" /><path stroke="#18EEA1" d="M9.5 3v10M10.5 3v10" /></svg></div>
+                <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
             }
 
         </div>

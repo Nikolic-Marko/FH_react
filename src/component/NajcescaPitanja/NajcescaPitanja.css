@@ -114,10 +114,10 @@ body{
 }
 
 .najcesce-pitanje:hover {
-  height: 240px;
+  height: 300px;
 }
 .najcesce-pitanje:hover .odgovor {
-  height: 150px;
+  height: 185px;
 }
 
 .najcesce-pitanje:hover .pitanje-link .krug-zatvoreno-pitanje {

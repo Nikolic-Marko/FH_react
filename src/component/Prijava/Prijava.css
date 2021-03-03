@@ -16,7 +16,7 @@
 }
 
 :root{
-    --zelena-boja:rgb(0, 255, 163);
+    --plava-boja:rgba(66, 189, 222, 1);
 }
 
 main{
@@ -33,7 +33,7 @@ main{
 .naslov-prijave{
     color:white;
     padding: 10px 0px;
-    border-bottom: 1.5px solid var(--zelena-boja);
+    border-bottom: 1.5px solid var(--plava-boja);
 }
 
 .naslov-prijave > h1{
@@ -49,7 +49,7 @@ main{
 }
 
 .brojac-container .brojac{
-    color:var(--zelena-boja);
+    color:var(--plava-boja);
     font-family: digital;
     font-weight: 100;
     font-size: 6rem;
@@ -119,14 +119,14 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
 }
 
 .clanBroj{
-    color:var(--zelena-boja);
+    color:var(--plava-boja);
     font-weight: 600;
     font-size: 1.4rem;
 }
 
 .sledecaStranaBtn{
     width: 80%;
-    background-color: var(--zelena-boja);
+    background-color: var(--plava-boja);
     text-align: center;
     padding: 10px;
     margin:50px auto;
@@ -149,7 +149,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
     margin:50px 0;
     margin-top:90px;
     padding: 20px 10px 0 10px;
-    color:var(--zelena-boja);
+    color:var(--plava-boja);
     background-color: black;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
@@ -161,12 +161,12 @@ select{
     border: none;
     outline:none;
     width: 100%;
-    color: var(--zelena-boja);
+    color: var(--plava-boja);
     background-color: black;
 
     font-size: 1.1rem;
     margin-top:20px;
-    border-top: 1.2px solid var(--zelena-boja);
+    border-top: 1.2px solid var(--plava-boja);
 }
 
 .saznali-container div.required{
@@ -176,7 +176,7 @@ select{
 
 .pravilnik-container{
     background-color: black;
-    color:var(--zelena-boja);
+    color:var(--plava-boja);
     padding: 10px;
     display: flex;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83); 

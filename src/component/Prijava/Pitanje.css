@@ -17,7 +17,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
 }
 
 .fake-placeholder{
-    color:var(--zelena-boja);
+    color:var(--plava-boja);
     font-size: 1.1rem;
     padding: 10px;
     transform: translateY(100%);
@@ -38,7 +38,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
 }
 
 .fake-underline{
-    background-color: var(--zelena-boja);
+    background-color: var(--plava-boja);
     width: 0;
     height: 3px;
     position: absolute;
@@ -67,7 +67,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
 
 .posaljiBtn{
     width: 100%;
-    background-color:var(--zelena-boja);
+    background-color:var(--plava-boja);
     padding:20px;
     outline:none;
     border:none;
@@ -86,13 +86,13 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
 
 .posaljiBtn:hover{
     cursor: pointer;
-    color:var(--zelena-boja);
+    color:var(--plava-boja);
     background-color: black;
     transform: scale(1.05);
 }
 
 .posaljiBtn:hover path{
-    fill:var(--zelena-boja)
+    fill:var(--plava-boja)
 }
 
 .posaljiBtn svg{

@@ -29,14 +29,16 @@ class AboutHakaton extends Component {
                     <div className="textSection">
                         <h1>O HAKATONU</h1>
                         <p>
-                            Hakaton za srednjoškolce predstavlja takmičenje namenjeno
-                            učenicima srednjih škola na teritoriji Srbije
-                            koji su spremni da primene postojeća znanja u praksi
-                            i nauče nešto novo u oblasti informacionih tehnologija.
-                            Takmičenju prethodi selekcija koja se sastoji iz prijave,
-                            online testa i radionica. Na samom takmičenju timovi
-                            treba za 24 časa da kreiraju softversko rešenje na zadati problem
-                            primenom znanja stečenog na radionicama i uz pomoć mentora.
+                            FON Hakaton je takmičenje u programiranju
+                            na kome učesnici imaju 48 časova na raspolaganju da realizuju softversko rešenje
+                            na zadatu temu. Odabrani timovi, sastavljeni od po 3 ili 4 člana,
+                            imaće jedinstvenu priliku da u realnom okruženju
+                            testiraju svoje veštine i znanja i steknu veliko iskustvo
+                            koje ističe programere u budućem usavršavanju i napretku u karijeri. 
+                            Na putu do osvajanja titule pobednika osmog po redu FON Hakatona, 
+                            timovima će pomagati stručnjaci sa ogromnim iskustvom iz oblasti IT-a. 
+                            Takmičenje će se ove godine održati od 9. do 11. aprila i to u online okruženju, 
+                            preko platforme Google Meet.
                         </p>
                         <br />
                         <hr />

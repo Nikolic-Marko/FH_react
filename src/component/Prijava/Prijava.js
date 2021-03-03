@@ -153,7 +153,7 @@ const Prijava = () => {
                         <Pitanje text="Naziv tima" required={true} />
                         <div className="saznali-container">
                             <div>Broj članova tima</div>
-                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="#18EEA1" strokeWidth="1.4" /><path fill="#18EEA1" d="M9 14h2v2H9z" /><path stroke="#18EEA1" d="M9.5 3v10M10.5 3v10" /></svg></div>
+                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                             <select name="saznali" id="brojClanova-select" ref={brojClanovaRef} onChange={promenaBrojaClanova}>
                                 <option>4</option>
                                 <option>3</option>
@@ -161,7 +161,7 @@ const Prijava = () => {
                         </div>
                         <div className="saznali-container">
                             <div>Kako ste saznali za hakaton za srednjoškolce?</div>
-                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="#18EEA1" strokeWidth="1.4" /><path fill="#18EEA1" d="M9 14h2v2H9z" /><path stroke="#18EEA1" d="M9.5 3v10M10.5 3v10" /></svg></div>
+                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                             <select name="saznali" id="saznali-select" ref={saznaliRef}>
                                 <option>Preko društvenih mreža</option>
                                 <option>Preko prijatelja</option>
@@ -179,7 +179,7 @@ const Prijava = () => {
                             <div>
                                 Saglasni smo da smo pročitali i da smo upoznati sa <a target="_blank" href="https://hzs.fonis.rs/2021/HZS.pdf" id ="pravilnikA">pravilnikom</a> takmičenja
                             </div>
-                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="#18EEA1" strokeWidth="1.4" /><path fill="#18EEA1" d="M9 14h2v2H9z" /><path stroke="#18EEA1" d="M9.5 3v10M10.5 3v10" /></svg></div>
+                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                         </div>
                         <div className="sledecaStranaBtn" onClick={() => { prebaciStranu(2) }}>
                             Sledeća strana
@@ -199,7 +199,7 @@ const Prijava = () => {
                                 <Pitanje text="Srednja škola" required={true} />
                                 <div className="saznali-container">
                                     <div>Razred</div>
-                                    <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="#18EEA1" strokeWidth="1.4" /><path fill="#18EEA1" d="M9 14h2v2H9z" /><path stroke="#18EEA1" d="M9.5 3v10M10.5 3v10" /></svg></div>
+                                    <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                                     <select name="saznali" id="razred-select">
                                         <option valeu={1}>1</option>
                                         <option valeu={2}>2</option>

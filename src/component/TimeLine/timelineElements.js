@@ -1,42 +1,42 @@
 let timelineElements = [
   {
     id: 1,
-    startDate: "25.2.2021.",
+    startDate: "6.3.2021.",
     title: "Otvaranje prijava",
     description:
-      "Okupite tim, sastavite prijavu i popunite formu na sajtu!",
+      "Ne propustite priliku da se oprobate na jednom od najizazovnijih takmičenja u programiranju. Okupite svoj tim, popunite formu na sajtu i prijavite se!",
     icon: "work",
   },
   {
     id: 2,
-    startDate: "11.3.2021.",
+    startDate: "21.3.2021.",
     title: "Zatvaranje prijava",
     description:
-      "Nakon zatvaranja prijava, prijavljeni timovi će biti kontaktirani i biće im dostavljene sve neophodne informacije vezane za dalji tok selekcije.",
+      "Nakon zatvaranja prijava, kontaktiraćemo sve prijavljene kandidate, a onima koji prođu ovaj krug selekcije daćemo sve neophodne informacije vezane za moodle test. Redovno proveravajte svoje mejlove!",
     icon: "work",
   },
   {
     id: 3,
-    startDate: "14.3.2021.",
-    title: "Online test",
+    startDate: "28.3.2021.",
+    title: "Moodle test",
     description:
-      "Timovi koji prođu prvi krug selekcije radiće online test, nakon čega se u najkraćem mogućem roku dostavljaju rezultati testa kao i informacija o prolasku u naredni krug selekcije. Test se radi timski.",
+      "Svi timovi koji su prošli prvi krug selekcije radiće test znanja, kako bi samo oni najbolji učestvovali na takmičenju. Rezultate i informacije o prolasku na Hakaton javićemo u najkraćem roku.",
     icon: "work",
   },
   {
     id: 4,
-    startDate: "18.3.2021 - 21.3.2021.",
-    title: "Radionice",
+    startDate: "31.3.2021.",
+    title: "Soft Skill radionica",
     description:
-      "Podrazumevaju upoznavanje potencijalnih takmičara sa tehnologijama koje će im biti od pomoći na samom hakatonu. Nakon odslušanih radionica, timovima se zadaje domaći zadatak koji je neophodno da odrade i predaju na vreme, i koji ujedno predstavlja treći krug selekcije.",
+      "Kako bismo pomogli timovima da se na što bolji način pripreme za prezentaciju rešenja, ogranizovaće se Soft Skill radionica gde će takmičari naučiti kako da najbolje predstave svoje rešenje i na šta je potrebno da obrate pažnju.",
     icon: "work",
   },
   {
     id: 5,
-    startDate: "2.4.2021 - 3.4.2021.",
+    startDate: "9.4.2021 - 11.4.2021.",
     title: " Hakaton",
     description:
-      "Timovima se predstavlja tema hakatona, nakon čega imaju na raspolaganju 24 sata da osmisle što bolje i kreativnije rešenje, i na taj način osvoje prvo mesto!",
+      "Timovima će biti predstavljen problem, nakon čega će imati na raspolaganju 48 sati da osmisle i razviju svoje softversko rešenje i ubede stručni žiri da baš oni zaslužuju da ponesu titulu pobednika osmog po redu FON Hakatona!",
     icon: "work",
   },
 ];
