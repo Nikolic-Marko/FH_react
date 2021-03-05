@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import './Pitanje.css'
 
 
-const Pitanje = ({ text, error, required }) => {
+const Pitanje = ({ text, error, required, napomena }) => {
     const inputRef = useRef();
     const placeholderRef = useRef();
     const underlineRef = useRef();
@@ -23,7 +23,7 @@ const Pitanje = ({ text, error, required }) => {
 
     return (
         <div className="Pitanje">
-            <div ref={placeholderRef} className="fake-placeholder" onClick={movePlaceholder}>{text}</div>
+            <div ref={placeholderRef} className="fake-placeholder" onClick={movePlaceholder}>{text}<span style={{ fontSize: "0.8rem" }}> {napomena}</span></div>
             <input ref={inputRef} onBlur={noMoreFocus} onFocus={movePlaceholder} />
             <div ref={underlineRef} className="fake-underline"></div>
 

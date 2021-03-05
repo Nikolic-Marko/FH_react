@@ -54,12 +54,8 @@ const Prijava = () => {
         //broj clanova
         let brojClanovaSelect = strana1.querySelector("#brojClanova-select")
         let brojClanovaVrednost = brojClanovaSelect.options[brojClanovaSelect.selectedIndex].text
-        //saznali
-        let saznaliSelect = strana1.querySelector("#saznali-select")
-        let saznaliVrednost = saznaliSelect.options[saznaliSelect.selectedIndex].text
 
         odgovori.tim.push({ brojClanova: brojClanovaVrednost });
-        odgovori.tim.push({ saznali: saznaliVrednost });
 
         if (!pravilnikRef.current.checked) {
             window.alert("Molimo vas da označite da ste saglasni sa pravilnikom hakatona");
@@ -81,7 +77,7 @@ const Prijava = () => {
 
                 odgovoriClana.push(vrednost);
             })
-            odgovoriClana.push({ razred: pitanjaContainer.querySelector("#razred-select").value });
+            odgovoriClana.push({ godina: pitanjaContainer.querySelector("#razred-select").value });
             odgovori.clanovi.push(odgovoriClana);
         })
 
@@ -89,8 +85,8 @@ const Prijava = () => {
             window.alert('Morate popuniti sva polja koja su obavezna!');
             return;
         } else {
-            let url = 'https://hzs.fonis.rs/2021/obradaPrijave.php';
-            // let url = 'http://localhost/hzsPrijaveServer/index.php';
+            // let url = 'https://hzs.fonis.rs/2021/obradaPrijave.php';
+            let url = 'http://localhost/FH_prijave/obradaPrijave.php';
             const request = new Request(url, {
                 method: 'POST',
                 body: JSON.stringify(odgovori)
@@ -159,25 +155,14 @@ const Prijava = () => {
                                 <option>3</option>
                             </select>
                         </div>
-                        <div className="saznali-container">
-                            <div>Kako ste saznali za hakaton za srednjoškolce?</div>
-                            <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
-                            <select name="saznali" id="saznali-select" ref={saznaliRef}>
-                                <option>Preko društvenih mreža</option>
-                                <option>Preko prijatelja</option>
-                                <option>Preko profesora</option>
-                                <option>Preko online panela</option>
-                                <option selected>Ostalo</option>
-                            </select>
-                        </div>
-                        <TextarePitanje required={false} text="Da li ste nekada učestvovali na sličnim takmičenjima? Ukoliko jeste opišite vaša iskustva." />
-                        <TextarePitanje required={true} text="Šta vas motiviše da se prijavite na ovogodišnji HZS? [od 70 do 150 reči]" />
-                        <TextarePitanje required={true} text="Koja su vaša očekivanja od takmičenja? [od 40 do 80 reči]" />
-                        <TextarePitanje required={true} text="Šta bi za vaš tim predstavaljao najveći izazov tokom takmičenja?" />
+                        <TextarePitanje required={true} text="Da li ste nekada učestvovali na sličnim takmičenjima? Ukoliko jeste opišite vaša iskustva." />
+                        <TextarePitanje required={true} text="Šta vas motiviše da se prijavite za učestvovanje na FON hakatonu?" />
+                        <TextarePitanje required={true} text="Koje osobine članova vašeg tima bi mogle da budu prepreka na takmičenju?" />
+                        <TextarePitanje required={true} text="Šta bi za vas predstavljao uspeh na ovom takmičenju?" />
                         <div className="pravilnik-container">
                             <div><input type="checkbox" ref={pravilnikRef} /></div>
                             <div>
-                                Saglasni smo da smo pročitali i da smo upoznati sa <a target="_blank" href="https://hzs.fonis.rs/2021/HZS.pdf" id ="pravilnikA">pravilnikom</a> takmičenja
+                                Saglasni smo da smo pročitali i da smo upoznati sa <a target="_blank" href="https://hzs.fonis.rs/2021/HZS.pdf" id="pravilnikA">pravilnikom</a> takmičenja
                             </div>
                             <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                         </div>
@@ -195,10 +180,11 @@ const Prijava = () => {
                             <div className="pitanjaZaClana">
                                 <div className="clanBroj">ČLAN {index + 1}</div>
                                 <Pitanje text="Ime i prezime" required={true} />
-                                <Pitanje text="Grad" required={true} />
-                                <Pitanje text="Srednja škola" required={true} />
+                                <Pitanje text="E-mail" required={true} />
+                                <Pitanje text="Broj telefona" required={true} />
+                                <Pitanje text="Fakultet (posao/srednja škola)" required={true} />
                                 <div className="saznali-container">
-                                    <div>Razred</div>
+                                    <div>Godina studija/razred</div>
                                     <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                                     <select name="saznali" id="razred-select">
                                         <option valeu={1}>1</option>
@@ -207,8 +193,7 @@ const Prijava = () => {
                                         <option valeu={4}>4</option>
                                     </select>
                                 </div>
-                                <Pitanje text="Broj telefona" required={true} />
-                                <Pitanje text="E-mail" required={true} />
+                                <Pitanje text="CV" napomena={"- Ostavite nam link ka nekom cloud servisu gde možemo pročitati vaš CV"} />
                                 <div style={presekStyle}></div>
                             </div>
                         ))}
@@ -222,7 +207,7 @@ const Prijava = () => {
                     </div>
 
                     <div style={{ fontSize: "0.8rem", textAlign: "center" }}>*Ukoliko imaš dodatnih pitanja u vezi sa prijavom pošalji nam mejl na</div>
-                    <div style={{ fontSize: "1rem", marginBottom: "20px", textAlign: "center" }}><b><a href="mailto: office@fonis.rs" style={{textDecoration : "none", color: "rgba(66, 189, 222, 1)"}} >office@fonis.rs</a></b></div>
+                    <div style={{ fontSize: "1rem", marginBottom: "20px", textAlign: "center" }}><b><a href="mailto: office@fonis.rs" style={{ textDecoration: "none", color: "rgba(66, 189, 222, 1)" }} >office@fonis.rs</a></b></div>
 
                 </div>
                 :
