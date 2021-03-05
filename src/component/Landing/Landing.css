@@ -29,7 +29,7 @@
   z-index: 101;
   margin: 0 0 0 100px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   height: auto;
   width: 40%;
 }
@@ -464,7 +464,7 @@ font-size: 23px;
   margin:10px 0 20px 0;
 }
   .corner-ribbon{
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 @media (max-width: 400px) {  
