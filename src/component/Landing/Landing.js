@@ -157,7 +157,7 @@ const Landing = () => {
           <a href="https://www.instagram.com/hakaton_za_srednjoskolce/">
             <img src={Instagram} alt="" />
           </a>
-          <a href="https://web.facebook.com/fonis.rs/?_rdc=1&_rdr">
+          <a href="https://web.facebook.com/fonis.rs/?_rdc=1_rdr">
             <img className="dugmic-drugi" src={Facebook} alt="" />
           </a>
           <a href="https://www.linkedin.com/company/fonis/">

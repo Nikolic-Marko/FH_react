@@ -1,5 +1,5 @@
 #nas-tim {
-  background: rgba(30, 57, 79, 1); /**/
+  background: #16283F; /**/
 }
 
 .nas-tim-naslov {
@@ -22,7 +22,7 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 10px;
-  text-shadow: 8px 8px 8px rgba(30, 57, 79, 1);;
+  text-shadow: 8px 8px 8px #16283F;;
 }
 .imePrezime{
   text-align: center;
@@ -56,7 +56,7 @@
 /*******nas tim*************/
 .nas-team {
   width: 100%;
-  background: rgba(30, 57, 79, 1);
+  background: #16283F;
   height: auto;
   display: flex;
   justify-content: center;

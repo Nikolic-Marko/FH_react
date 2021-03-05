@@ -1,5 +1,5 @@
 .timeLineWrap{
-  background: rgba(30, 57, 79, 1);
+  background: #16283F;
   margin-top: 5%;
 }
 h4 {
@@ -45,7 +45,7 @@ h4 {
 
   @media only screen and (max-width: 380px) {
     .timeLineWrap{
-      background: rgba(30, 57, 79, 1);
+      background: #16283F;
       margin-top: 130px;
     }
   }
