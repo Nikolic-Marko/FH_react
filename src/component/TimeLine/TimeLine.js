@@ -26,11 +26,11 @@ function TimeLine() {
                         <VerticalTimelineElement
                             key={element.key}
                             contentStyle={{
-                                background: "rgba(30, 57, 79, 1)",
+                                background: "#16283F",
                                 color: "#fff",
                             }}
                             contentArrowStyle={{
-                                borderRight: "7px solid  rgba(30, 57, 79, 1)",
+                                borderRight: "7px solid  #16283F",
                             }}
                             iconStyle={
                                 isWorkIcon ? workIconStyles : schoolIconStyles

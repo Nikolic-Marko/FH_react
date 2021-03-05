@@ -2,7 +2,7 @@
     width: 100%;
     margin: 5px 0 30px 0;
     display: flex;
-    background: rgba(30, 57, 79, 1);
+    background: #16283F;
     height: 100vh;
 }
 
@@ -144,7 +144,7 @@
 
 
 #nas-tim {
-  background: rgba(30, 57, 79, 1); /**/
+  background: #16283F; /**/
 }
 
 .nas-tim-naslov {
@@ -174,7 +174,7 @@
   margin: 20px 10px 10px 10px;
   background-color: white;
   margin-bottom: 200px;
-  background: rgba(30, 57, 79, 1);
+  background: #16283F;
 }
 
 .kartica-sadrzaj {

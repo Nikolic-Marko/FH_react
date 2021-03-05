@@ -225,7 +225,7 @@ const Prijava = () => {
 const presekStyle = {
     width: "100%",
     height: "1.2px",
-    backgroundColor: "var(--zelena-boja)",
+    backgroundColor: "var(--plava-boja)",
     margin: "50px 0 0 0"
 }
 

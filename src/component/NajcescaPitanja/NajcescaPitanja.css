@@ -1,5 +1,5 @@
 body{
-  background: rgba(30, 57, 79, 1);
+  background: #16283F;
 }
 
 .najcesca-pitanja::before,
@@ -13,8 +13,8 @@ body{
   height: 100vh;
   font-family: 'Gilroy-Light', sans-serif;
   font-size: 20px;
-  color: rgba(30, 57, 79, 1);
-  background: rgba(30, 57, 79, 1);
+  color: #16283F;
+  background: #16283F;
 }
 
 .najcesca-pitanja-naslov {

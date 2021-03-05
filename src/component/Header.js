@@ -11,15 +11,15 @@ const Header = (props) => {
           <img src={Logo} alt="logo" />
         </NavLink>
         <div className={classes.Links}>
-          <div className={classes.Text}>2-3 APRILA</div>
-
+          <div className={classes.Text}>9-11. APRILA</div>
+{/* 
           <NavLink to="/forum" className={classes.Link}>
             <span>Forum</span>
           </NavLink>
 
           <button className={classes.Link} onClick={props.modalShow}>
             <span>Log In</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
