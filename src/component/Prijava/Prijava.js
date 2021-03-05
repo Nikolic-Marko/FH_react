@@ -86,7 +86,7 @@ const Prijava = () => {
             return;
         } else {
             // let url = 'https://hzs.fonis.rs/2021/obradaPrijave.php';
-            let url = 'http://localhost/FH_prijave/obradaPrijave.php';
+            let url = 'https://hakaton.fonis.rs/2021/obradaPrijave.php';
             const request = new Request(url, {
                 method: 'POST',
                 body: JSON.stringify(odgovori)
