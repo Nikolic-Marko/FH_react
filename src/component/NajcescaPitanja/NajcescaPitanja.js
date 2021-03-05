@@ -14,7 +14,7 @@ const NajcescaPitanja = () => {
               <div className="krug-zatvoreno-pitanje"></div>
               <div className="krug-otvoreno-pitanje"></div>
             </div>
-            <div className="odgovor">
+            <div className="odgovor" id="dugacakOdgovor">
               <p>
                 Selekciju čine dva dela, najpre sama prijava, a zatim test znanja. U prijavi želimo da nam, na vama svojstven način, pokažete motivaciju da učestvujete na ovogodišnjem takmičenju. Pored dobre energije, potrebno je da svi članovi tima prilože i CV koji nam pomaže da bolje sagledamo vaše znanje, iskustvo i veštine kada je programiranje u pitanju. Test znanja se radi od kuće, timski, na Moodle-u. Pitanja obuhvataju različite sfere informatike, poznavanje aktuelnih tehnologija, ali i značajnih ličnosti i događaja u IT svetu. Rangiranje je zbirno, a veći udeo u ukupnim poenima ima test.
               </p>
@@ -29,7 +29,7 @@ const NajcescaPitanja = () => {
               <div className="krug-zatvoreno-pitanje"></div>
               <div className="krug-otvoreno-pitanje"></div>
             </div>
-            <div className="odgovor">
+            <div className="odgovor" id="kratakOdgovor">
               <p>
                 Tema se otkriva na brifingu, odmah posle otvaranja Hakatona. Do tada je tajna.
               </p>
@@ -59,7 +59,7 @@ const NajcescaPitanja = () => {
               <div className="krug-zatvoreno-pitanje"></div>
               <div className="krug-otvoreno-pitanje"></div>
             </div>
-            <div className="odgovor">
+            <div className="odgovor" id="kratakOdgovor">
               <p>
                 Nije moguće. Prijave se vrše isključivo timski, a jedan tim može imati 3 ili 4 člana.
               </p>
@@ -74,7 +74,7 @@ const NajcescaPitanja = () => {
               <div className="krug-zatvoreno-pitanje"></div>
               <div className="krug-otvoreno-pitanje"></div>
             </div>
-            <div className="odgovor">
+            <div className="odgovor" id="kratakOdgovor">
               <p>
                 Timovi imaju 48 časova za izradu softverskog rešenja.
               </p>
@@ -104,7 +104,7 @@ const NajcescaPitanja = () => {
               <div className="krug-zatvoreno-pitanje"></div>
               <div className="krug-otvoreno-pitanje"></div>
             </div>
-            <div className="odgovor">
+            <div className="odgovor" id="kratakOdgovor">
               <p>
                 Takmičari mogu koristiti tehnologije po svom izboru.
                </p>

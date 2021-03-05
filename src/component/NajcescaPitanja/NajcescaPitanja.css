@@ -114,10 +114,49 @@ body{
 }
 
 .najcesce-pitanje:hover {
-  height: 300px;
+  height: 240px;
 }
 .najcesce-pitanje:hover .odgovor {
-  height: 185px;
+  height: 120px;
+}
+
+#pitanje1:hover {
+  height: 400px;
+}
+
+#pitanje1:hover #dugacakOdgovor {
+  height: 275px;
+}
+
+#pitanje2:hover {
+  height: 140px;
+}
+
+#pitanje2:hover #kratakOdgovor {
+  height: 60px;
+}
+
+#pitanje4:hover {
+  height: 140px;
+}
+
+#pitanje4:hover #kratakOdgovor {
+  height: 60px;
+}
+
+#pitanje5:hover {
+  height: 140px;
+}
+
+#pitanje5:hover #kratakOdgovor {
+  height: 60px;
+}
+#pitanje7:hover {
+  height: 160px;
+}
+
+#pitanje7:hover #kratakOdgovor {
+  height: 60px;
 }
 
 .najcesce-pitanje:hover .pitanje-link .krug-zatvoreno-pitanje {
@@ -133,23 +172,84 @@ body{
     width: 100%;
   }
   .najcesce-pitanje:hover {
-    height: 220px;
+    height: 200px;
   }
   .najcesce-pitanje:hover .odgovor {
-    height: 110px;
+    height: 100px;
+  }
+  #pitanje1:hover {
+    height: 285px;
+  }
+  
+  #pitanje1:hover #dugacakOdgovor {
+    height: 185px;
   }
 }
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 753px) {
+  #pitanje1:hover {
+    height: 350px;
+  }
+  #pitanje1:hover #dugacakOdgovor {
+    height: 230px;
+  }
+}
+@media screen and (max-width: 660px) {
   .najcesce-pitanje {
     width: 100%;
+    height: 125px;
   }
   .najcesce-pitanje:hover {
-    height: 440px;
+    height: 385px;
   }
   .najcesce-pitanje:hover .odgovor {
-    height: 290px;
+    height: 265px;
   }
   .pitanje-tekst {
-    height: 55px;
+    height: 75px;
+    width: 87%;
+  }
+  #pitanje1:hover {
+    height: 450px;
+  }
+  #pitanje1:hover #dugacakOdgovor {
+    height: 330px;
+  }
+  #pitanje2:hover {
+    height: 240px;
+  }
+  
+  #pitanje2:hover #kratakOdgovor {
+    height: 120px;
+  }
+  #pitanje4:hover {
+    height: 240px;
+  }
+  
+  #pitanje4:hover #kratakOdgovor {
+    height: 120px;
+  }
+  #pitanje5:hover {
+    height: 240px;
+  }
+  
+  #pitanje5:hover #kratakOdgovor {
+    height: 120px;
+  }
+  #pitanje7:hover {
+    height: 240px;
+  }
+  
+  #pitanje7:hover #kratakOdgovor {
+    height: 120px;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  #pitanje1:hover {
+    height: 770px;
+  }
+  #pitanje1:hover #dugacakOdgovor {
+    height: 650px;
   }
 }

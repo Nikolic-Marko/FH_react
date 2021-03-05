@@ -36,7 +36,7 @@ let timelineElements = [
     startDate: "9.4.2021 - 11.4.2021.",
     title: " Hakaton",
     description:
-      "Timovima će biti predstavljen problem, nakon čega će imati na raspolaganju 48 sati da osmisle i razviju svoje softversko rešenje i ubede stručni žiri da baš oni zaslužuju da ponesu titulu pobednika osmog po redu FON Hakatona!",
+      "Timovima će biti predstavljen problem, nakon čega će imati na raspolaganju 48 časova da osmisle i razviju svoje softversko rešenje i ubede stručni žiri da baš oni zaslužuju da ponesu titulu pobednika osmog po redu FON Hakatona!",
     icon: "work",
   },
 ];

@@ -11,147 +11,144 @@ const Landing = () => {
   return (
     <div className="homepage">
       <div className="sredisnji-deo">
-    <Particles
-        id="tsparticles"
-        options={{
-          background: {
-            color: {
-              value: "transparent",
-            },
-          },
-          fpsLimit: 60,
-          "particles": {
-            "number": {
-              "value": 160,
-              "density": {
-                "enable": true,
-                "value_area": 800
-              }
-            },
-            "color": {
-              "value": "#ffffff"
-            },
-            "shape": {
-              "type": "edge",
-              "stroke": {
-                "width": 0,
-                "color": "#000000"
+        <Particles
+          id="tsparticles"
+          options={{
+            background: {
+              color: {
+                value: "transparent",
               },
-              "polygon": {
-                "nb_sides": 5
-              },
-              "image": {
-                "src": './img/LogoFH.png',
-                "width": 100,
-                "height": 100
-              }
             },
-            "opacity": {
-              "value": 1,
-              "random": true,
-              "anim": {
-                "enable": true,
-                "speed": 1,
-                "opacity_min": 0,
-                "sync": false
-              }
-            },
-            "size": {
-              "value": 5,
-              "random": true,
-              "anim": {
-                "enable": false,
-                "speed": 4,
-                "size_min": 0.6,
-                "sync": false
-              }
-            },
-            "line_linked": {
-              "enable": false,
-              "distance": 150,
-              "color": "#ffffff",
-              "opacity": 0.4,
-              "width": 1
-            },
-            "move": {
-              "enable": true,
-              "speed": 1,
-              "direction": "none",
-              "random": true,
-              "straight": false,
-              "out_mode": "out",
-              "bounce": false,
-              "attract": {
-                "enable": false,
-                "rotateX": 600,
-                "rotateY": 600
-              }
-            }
-          },
-          "interactivity": {
-            "detect_on": "canvas",
-            "events": {
-              "onhover": {
-                "enable": false,
-                "mode": "bubble"
-              },
-              "onclick": {
-                "enable": true,
-                "mode": "push"
-              },
-              "resize": true
-            },
-            "modes": {
-              "grab": {
-                "distance": 400,
-                "line_linked": {
-                  "opacity": 1
+            fpsLimit: 60,
+            "particles": {
+              "number": {
+                "value": 160,
+                "density": {
+                  "enable": true,
+                  "value_area": 800
                 }
               },
-              "bubble": {
-                "distance": 250,
-                "size": 0,
-                "duration": 2,
-                "opacity": 0,
-                "speed": 3
+              "color": {
+                "value": "#ffffff"
               },
-              "repulse": {
-                "distance": 400,
-                "duration": 0.4
+              "shape": {
+                "type": "edge",
+                "stroke": {
+                  "width": 0,
+                  "color": "#000000"
+                },
+                "polygon": {
+                  "nb_sides": 5
+                },
+                "image": {
+                  "src": './img/LogoFH.png',
+                  "width": 100,
+                  "height": 100
+                }
               },
-              "push": {
-                "particles_nb": 4
+              "opacity": {
+                "value": 1,
+                "random": true,
+                "anim": {
+                  "enable": true,
+                  "speed": 1,
+                  "opacity_min": 0,
+                  "sync": false
+                }
               },
-              "remove": {
-                "particles_nb": 2
+              "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                  "enable": false,
+                  "speed": 4,
+                  "size_min": 0.6,
+                  "sync": false
+                }
+              },
+              "line_linked": {
+                "enable": false,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+              },
+              "move": {
+                "enable": true,
+                "speed": 1,
+                "direction": "none",
+                "random": true,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                  "enable": false,
+                  "rotateX": 600,
+                  "rotateY": 600
+                }
               }
-            }
-          },
-          "retina_detect": true
-        }}
-      />
-    </div>
+            },
+            "interactivity": {
+              "detect_on": "canvas",
+              "events": {
+                "onhover": {
+                  "enable": false,
+                  "mode": "bubble"
+                },
+                "onclick": {
+                  "enable": true,
+                  "mode": "push"
+                },
+                "resize": true
+              },
+              "modes": {
+                "grab": {
+                  "distance": 400,
+                  "line_linked": {
+                    "opacity": 1
+                  }
+                },
+                "bubble": {
+                  "distance": 250,
+                  "size": 0,
+                  "duration": 2,
+                  "opacity": 0,
+                  "speed": 3
+                },
+                "repulse": {
+                  "distance": 400,
+                  "duration": 0.4
+                },
+                "push": {
+                  "particles_nb": 4
+                },
+                "remove": {
+                  "particles_nb": 2
+                }
+              }
+            },
+            "retina_detect": true
+          }}
+        />
+      </div>
       <div className="text-obavestenje">
-      <p>
-                    I ove godine, po treći put zaredom, <br />
-                    Udruženje studenata informatike FONIS <br />
-                    organizuje{" "}
-                    <b>
-                        Hakaton za srednjoškolce!
-                        <br />
-                    </b>
-                    Ovaj put družimo se u online formatu, <br />
-                    u periodu od 2. do 3. aprila 2021.
-                    <br />
-                    Prijave za takmičenje su otvorene <br /> do 11. marta u
-                    23:59,
-                    <br />a mi vas s nestrpljenjem očekujemo!
+        <p>
+          FON Hakaton je takmičenje u programiranju na kome učesnici imaju 48 časova
+          na raspolaganju da realizuju softversko rešenje  na zadatu temu.
+          Odabrani timovi, sastavljeni od po 3 ili 4 člana,
+          imaće  jedinstvenu  priliku da u realnom okruženju testiraju svoje veštine i znanja
+          i steknu veliko iskustvo  koje ističe programere u budućem  usavršavanju
+          i napretku u karijeri.
+          Na putu do osvajanja titule pobednika osmog po redu FON Hakatona,
+          timovima će pomagati stručnjaci sa ogromnim iskustvom iz oblasti IT-a.
+          Takmičenje će se ove godine održat od 9. do 11. aprila  i to u online okruženju,
+          preko platforme Google Meet.
                 </p>
-        <div className="dugme-ucestvuj">
-          <NavLink to="/prijava">
+        <NavLink to="/prijava" id="prijavaDugme">
+          <div className="dugme-ucestvuj">
             <b>UČESTVUJ</b>
-          </NavLink>
-        </div>
+          </div>
+        </NavLink>
 
         <div className="dugmici-mreze">
           <a href="https://www.instagram.com/hakaton_za_srednjoskolce/">
@@ -167,24 +164,24 @@ const Landing = () => {
       </div>
 
       <div className="desna-slika">
-        <video width="auto" height="auto"  autoPlay muted>
-        <source src={VideoHakaton} type="video/mp4"/>
-     </video>
+        <video width="auto" height="auto" autoPlay muted>
+          <source src={VideoHakaton} type="video/mp4" />
+        </video>
 
-     <div className="slogan-hakaton">
+        <div className="slogan-hakaton">
 
-        <div class="corner-ribbon bottom-left"><x-sign>
-        USE YOUR CODE</x-sign></div>
-        {/* <div class="corner-ribbon bottom-center"><x-sign>
+          <div class="corner-ribbon bottom-left"><x-sign>
+            USE YOUR CODE</x-sign></div>
+          {/* <div class="corner-ribbon bottom-center"><x-sign>
         TO</x-sign></div> */}
-        <div class="corner-ribbon bottom-right"><x-sign>
-        TO CHANGE THE ROAD</x-sign></div>
+          <div class="corner-ribbon bottom-right"><x-sign>
+            TO CHANGE THE ROAD</x-sign></div>
+
+        </div>
 
       </div>
-        
-      </div>
-      
-    
+
+
     </div>
   )
 }
