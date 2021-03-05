@@ -11,7 +11,7 @@ function Footer() {
         </a>
       </div>
       <div className="locationSection">
-        <h1>GDE SE NALAZIMO ?</h1>
+        <h1>GDE SE NALAZIMO?</h1>
         <p>Fakultet organizacionih nauka</p>
         <p>Jove Ilića 154</p>
         <p>Beograd</p>

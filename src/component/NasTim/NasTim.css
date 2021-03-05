@@ -76,7 +76,6 @@
 .cardTeam{
   width: 90%;
   height: auto;
-  background: red;
   color: white;
   margin: 0;
   display: flex;
@@ -88,6 +87,8 @@
   width: 100%;
   height: auto;
   display: block;
+  outline: none;
+  text-decoration:none
 }
 
 @media (max-width: 1024px) {
@@ -98,10 +99,10 @@
   .cardTeam{
     width: 85%;
     height: auto;
-    background: red;
     color: white;
     font-size: 30px;
     margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,6 +131,6 @@
   }
   .cardTeam{
     width: 95%;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 }

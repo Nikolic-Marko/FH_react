@@ -127,7 +127,7 @@ font-family: 'Agency FB', arial;
 margin-right: 140px;
 }
 .corner-ribbon.bottom-right{
-margin-right: -30px;
+margin-right: -15px;
 } 
 x-sign {
 text-shadow: 
@@ -465,7 +465,7 @@ font-size: 23px;
   flex-direction: column;
 }
   .corner-ribbon{
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media (max-width: 400px) {  

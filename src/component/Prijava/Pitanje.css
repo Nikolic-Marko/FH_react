@@ -24,6 +24,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.83);
     transition: transform .3s;
     height: 3rem;
     text-shadow: 6px 4px 3px rgb(0, 0, 0);
+    width: 93%;
 }
 
 .placeholderUp{

@@ -133,16 +133,12 @@ const Landing = () => {
       </div>
       <div className="text-obavestenje">
         <p>
-          FON Hakaton je takmičenje u programiranju na kome učesnici imaju 48 časova
-          na raspolaganju da realizuju softversko rešenje  na zadatu temu.
-          Odabrani timovi, sastavljeni od po 3 ili 4 člana,
-          imaće  jedinstvenu  priliku da u realnom okruženju testiraju svoje veštine i znanja
-          i steknu veliko iskustvo  koje ističe programere u budućem  usavršavanju
-          i napretku u karijeri.
-          Na putu do osvajanja titule pobednika osmog po redu FON Hakatona,
-          timovima će pomagati stručnjaci sa ogromnim iskustvom iz oblasti IT-a.
-          Takmičenje će se ove godine održat od 9. do 11. aprila  i to u online okruženju,
-          preko platforme Google Meet.
+        Udruženje studenata informatike FONIS održava FON Hakaton,
+        48-časovno takmičenje za ljubitelje programiranja. 
+        Okupite tim od tri ili četiri člana i učestvujte na drugoj online 
+        iteraciji takmičenja koja će biti organizovana preko Google Meet platforme 
+        9, 10. i 11. aprila. Prijave su otvorene do 21. marta u 23:59. 
+        Radujemo se vašim prijavama!
                 </p>
         <NavLink to="/prijava" id="prijavaDugme">
           <div className="dugme-ucestvuj">
@@ -151,7 +147,7 @@ const Landing = () => {
         </NavLink>
 
         <div className="dugmici-mreze">
-          <a href="https://www.instagram.com/hakaton_za_srednjoskolce/">
+          <a href="https://www.instagram.com/fonis_fon/">
             <img src={Instagram} alt="" />
           </a>
           <a href="https://web.facebook.com/fonis.rs/?_rdc=1_rdr">

@@ -162,7 +162,7 @@ const Prijava = () => {
                         <div className="pravilnik-container">
                             <div><input type="checkbox" ref={pravilnikRef} /></div>
                             <div>
-                                Saglasni smo da smo pročitali i da smo upoznati sa <a target="_blank" href="https://hzs.fonis.rs/2021/HZS.pdf" id="pravilnikA">pravilnikom</a> takmičenja
+                                Saglasni smo da smo pročitali i da smo upoznati sa <a target="_blank" href="//https://hakaton.fonis.rs/2021/HZS.pdf" id="pravilnikA">pravilnikom</a> takmičenja
                             </div>
                             <div className="required"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.3" stroke="rgba(66, 189, 222, 1)" strokeWidth="1.4" /><path fill="rgba(66, 189, 222, 1)" d="M9 14h2v2H9z" /><path stroke="rgba(66, 189, 222, 1)" d="M9.5 3v10M10.5 3v10" /></svg></div>
                         </div>
@@ -230,7 +230,7 @@ const presekStyle = {
 }
 
 const vratiInicijalnoOdbrojavanje = () => {
-    var countDownDate = new Date("Mar 11, 2021 00:00:00").getTime();
+    var countDownDate = new Date("Mar 22, 2021 00:00:00").getTime();
 
     var now = new Date().getTime();
 
@@ -251,7 +251,7 @@ const vratiInicijalnoOdbrojavanje = () => {
 }
 const odbrojavanje = () => {
     let interval = setInterval(function () {
-        var countDownDate = new Date("Mar 11, 2021 00:00:00").getTime();
+        var countDownDate = new Date("Mar 22, 2021 00:00:00").getTime();
 
         var now = new Date().getTime();
 

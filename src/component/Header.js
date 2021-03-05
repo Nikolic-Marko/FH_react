@@ -11,7 +11,7 @@ const Header = (props) => {
           <img src={Logo} alt="logo" />
         </NavLink>
         <div className={classes.Links}>
-          <div className={classes.Text}>9-11. APRILA</div>
+          <div className={classes.Text}>9-11. APRIL</div>
 {/* 
           <NavLink to="/forum" className={classes.Link}>
             <span>Forum</span>
