@@ -1,6 +1,7 @@
 .timeLineWrap{
   background: #16283F;
   margin-top: 5%;
+  overflow: hidden;
 }
 h4 {
     padding-top: 0.25em;

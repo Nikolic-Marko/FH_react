@@ -155,8 +155,8 @@ const Prijava = () => {
                                 <option>3</option>
                             </select>
                         </div>
-                        <TextarePitanje required={true} text="Da li ste nekada učestvovali na sličnim takmičenjima? Ukoliko jeste opišite vaša iskustva." />
-                        <TextarePitanje required={true} text="Šta vas motiviše da se prijavite za učestvovanje na FON hakatonu?" />
+                        <TextarePitanje required={true} text="Da li ste ranije učestvovali na sličnim takmičenjima? Ukoliko jeste, navedite na kojim i ukratko opišite iskustvo." />
+                        <TextarePitanje required={true} text="Šta vas motiviše da se prijavite za učestvovanje na FON Hakatonu? Opišite svoju motivaciju, očekivanja i zašto baš vaš tim treba da odaberemo." />
                         <TextarePitanje required={true} text="Koje osobine članova vašeg tima bi mogle da budu prepreka na takmičenju?" />
                         <TextarePitanje required={true} text="Šta bi za vas predstavljao uspeh na ovom takmičenju?" />
                         <div className="pravilnik-container">
