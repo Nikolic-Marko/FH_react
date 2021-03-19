@@ -9,7 +9,6 @@ import FonLogo from '../Landing/img/fonlogoceo.jpg'
 import JafaLogo from '../Landing/img/jaffalogo.png'
 import HzsSporedni from '../Landing/img/hzs-sporedni-mali-removebg-preview.png'
 import Chipsway from '../Landing/img/chipswaylogo.png'
-import ZabacLogo from '../Landing/img/zabaclogo.png'
 import TonusGymLogo from '../Landing/img/tonusgymlogo.png'
 import BaniniLogo from '../Landing/img/baninilogo.png'
 import HelloWorld from '../Landing/img/HelloWorld.png'
@@ -17,6 +16,21 @@ import BestLogo from '../Landing/img/BestLogo.png'
 import PrijemniLogo from '../Landing/img/PrijemniLogo.png'
 import eestecLogo from '../Landing/img/eestecLogo.png'
 import Carousel from 'react-multi-carousel';
+import ZabacLogo from '../Landing/img/zabaclogo.png'
+import Sessame from '../Landing/img/Sessame.png'
+import Kampster from '../Landing/img/Kampster.png'
+import Laguna from '../Landing/img/Laguna.png'
+import Eden from '../Landing/img/EDEN.jpg'
+import BibliotekaLogo from '../Landing/img/BibliotekaLogo.jpg'
+import FontanaLogo from '../Landing/img/FontanaLogo.jpg'
+import BugiLogo from '../Landing/img/BugiLogo.PNG'
+import MerryLand from '../Landing/img/MerryLand.jpg'
+import StarkLogo from '../Landing/img/StarkLogo.jpg'
+import YBLogo from '../Landing/img/YBLogo.jpg'
+import SmartLogo from '../Landing/img/SmartLogo.jpg'
+import CentarLogo from '../Landing/img/CentarLogo.png'
+import AIESECLogo from '../Landing/img/AIESECLogo.png'
+import YouthLogo from '../Landing/img/YouthLogo.png'
 import 'react-multi-carousel/lib/styles.css';
 
 const Partneri = () => {
@@ -83,6 +97,28 @@ const Partneri = () => {
           </div>
 
         </div> */}
+
+        <div className="naslov-partneri">
+          <h1>NATURALNI</h1>
+        </div>
+        <div className="slider">
+
+          <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={1000} infinite={true} showDots={false} arrows={false}>
+            <div className="card"><img src={ZabacLogo} alt="" /></div>
+            <div className="card"><img src={Kampster} alt="" /></div>
+            <div className="card"><img src={Eden} alt="" /></div>
+            <div className="card"><img src={Laguna} alt="" /></div>
+            <div className="card"><img src={Sessame} alt="" /></div>
+            <div className="card"><img src={BugiLogo} alt="" /></div>
+            <div className="card"><img src={FontanaLogo} alt="" /></div>
+            <div className="card"><img src={BibliotekaLogo} alt="" /></div>
+            <div className="card"><img src={MerryLand} alt="" /></div>
+            <div className="card"><img src={StarkLogo} alt="" /></div>
+            <div className="card"><img src={YBLogo} alt="" /></div>
+          </Carousel>;
+
+      </div>
+
         <div className="naslov-partneri">
           <h1>MEDIJSKI</h1>
         </div>
@@ -93,6 +129,10 @@ const Partneri = () => {
             <div className="card"><img src={PrijemniLogo} alt="" /></div>
             <div className="card"><img src={BestLogo} alt="" /></div>
             <div className="card"><img src={eestecLogo} alt="" /></div>
+            <div className="card"><img src={YouthLogo} alt="" /></div>
+            <div className="card"><img src={SmartLogo} alt="" /></div>
+            <div className="card"><img src={AIESECLogo} alt="" /></div>
+            <div className="card"><img src={CentarLogo} alt="" /></div>
           </Carousel>;
 
       </div>

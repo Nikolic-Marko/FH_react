@@ -32,7 +32,7 @@ const Homepage = () => {
       <TimeLine />
       <NasTim />
       <NajcescaPitanja />
-      <PartneriTemp />
+      <Partneri />
       <Footer />
       <LoginModal show={showModal} modalClosed={closeModal} />
     </div>
