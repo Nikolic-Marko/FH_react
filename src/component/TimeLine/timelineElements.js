@@ -26,9 +26,9 @@ let timelineElements = [
   {
     id: 4,
     startDate: "31.3.2021.",
-    title: "Soft skill radionica",
+    title: "Soft skills radionica",
     description:
-      "Kako bismo pomogli timovima da se na što bolji način pripreme za prezentaciju rešenja, ogranizovaće se Soft Skill radionica gde će takmičari naučiti kako da najbolje predstave svoje rešenje i na šta je potrebno da obrate pažnju.",
+      "Kako bismo pomogli timovima da se na što bolji način pripreme za prezentaciju rešenja, ogranizovaće se Soft Skills radionica gde će takmičari naučiti kako da najbolje predstave svoje rešenje i na šta je potrebno da obrate pažnju.",
     icon: "work",
   },
   {

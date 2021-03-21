@@ -137,14 +137,13 @@ const Landing = () => {
         48-časovno takmičenje za ljubitelje programiranja. 
         Okupite tim od tri ili četiri člana i učestvujte na drugoj online 
         iteraciji takmičenja koja će biti organizovana preko Google Meet platforme 
-        9, 10. i 11. aprila. Prijave su otvorene do 21. marta u 23:59. 
-        Radujemo se vašim prijavama!
+        9, 10. i 11. aprila. Prijave za takmičenje su zatvorene!
+        Svi prijavljeni timovi biće kontaktirani u što kraćem roku.
+        Hvala na prijavama!
                 </p>
-        <NavLink to="/prijava" id="prijavaDugme">
           <div className="dugme-ucestvuj">
             <b>UČESTVUJ</b>
           </div>
-        </NavLink>
 
         <div className="dugmici-mreze">
           <a href="https://www.instagram.com/fonis_fon/">

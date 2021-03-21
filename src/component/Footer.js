@@ -18,8 +18,8 @@ function Footer() {
       </div>
       <div className="contactSection">
         <h1>KONTAKTIRAJTE NAS</h1>
-        <a href="mailto: office@fonis.rs">
-          <p>office@fonis.rs</p>
+        <a href="mailto: hakaton@fonis.rs">
+          <p>hakaton@fonis.rs</p>
         </a>
       </div>
     </div>

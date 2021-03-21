@@ -17,7 +17,6 @@ function App() {
         <Route path="/forum/takmicenja" exact component={ForumPitanja} />
         <Route path="/forum/ostalo" exact component={ForumPitanja} />
         <Route path="/forum/ostalo/:id" exact component={PitanjaStranica} />
-        <Route path="/prijava" exact component={Prijava} />
       </Switch>
     </HashRouter>
   )

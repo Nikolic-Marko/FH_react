@@ -14,7 +14,7 @@ import BaniniLogo from '../Landing/img/baninilogo.png'
 import HelloWorld from '../Landing/img/HelloWorld.png'
 import BestLogo from '../Landing/img/BestLogo.png'
 import PrijemniLogo from '../Landing/img/PrijemniLogo.png'
-import eestecLogo from '../Landing/img/eestecLogo.png'
+import CSCLogo from '../Landing/img/CSCLogo.png'
 import Carousel from 'react-multi-carousel';
 import ZabacLogo from '../Landing/img/zabaclogo.png'
 import Sessame from '../Landing/img/Sessame.png'
@@ -27,10 +27,10 @@ import BugiLogo from '../Landing/img/BugiLogo.PNG'
 import MerryLand from '../Landing/img/MerryLand.jpg'
 import StarkLogo from '../Landing/img/StarkLogo.jpg'
 import YBLogo from '../Landing/img/YBLogo.jpg'
-import SmartLogo from '../Landing/img/SmartLogo.jpg'
+import PRLogo from '../Landing/img/PRLogo.png'
 import CentarLogo from '../Landing/img/CentarLogo.png'
-import AIESECLogo from '../Landing/img/AIESECLogo.png'
-import YouthLogo from '../Landing/img/YouthLogo.png'
+import SSLogo from '../Landing/img/SSLogo.png'
+import CZRKLogo from '../Landing/img/CZRKLogo.jpg'
 import 'react-multi-carousel/lib/styles.css';
 
 const Partneri = () => {
@@ -125,14 +125,12 @@ const Partneri = () => {
         <div className="slider">
 
           <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={1000} infinite={true} showDots={false} arrows={false}>
-            <div className="card"><img src={HelloWorld} alt="" /></div>
-            <div className="card"><img src={PrijemniLogo} alt="" /></div>
-            <div className="card"><img src={BestLogo} alt="" /></div>
-            <div className="card"><img src={eestecLogo} alt="" /></div>
-            <div className="card"><img src={YouthLogo} alt="" /></div>
-            <div className="card"><img src={SmartLogo} alt="" /></div>
-            <div className="card"><img src={AIESECLogo} alt="" /></div>
-            <div className="card"><img src={CentarLogo} alt="" /></div>
+            <a href="https://best.rs/"><div className="card"><img src={BestLogo} alt="" /></div></a>
+            <a href="https://casestudyclub.org/"><div className="card"><img src={CSCLogo} alt="" /></div></a>
+            <a href="http://www.razvojkarijere.bg.ac.rs/"><div className="card"><img src={CZRKLogo} alt="" /></div></a>
+            <a href="https://probjave.com/"><div className="card"><img src={PRLogo} alt="" /></div></a>
+            <a href="http://ssfon.rs/"><div className="card"><img src={SSLogo} alt="" /></div></a>
+            <a href="https://www.fonovcentar.rs/"><div className="card"><img src={CentarLogo} alt="" /></div></a>
           </Carousel>;
 
       </div>

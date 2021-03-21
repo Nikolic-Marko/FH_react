@@ -207,7 +207,7 @@ const Prijava = () => {
                     </div>
 
                     <div style={{ fontSize: "0.8rem", textAlign: "center" }}>*Ukoliko imaš dodatnih pitanja u vezi sa prijavom pošalji nam mejl na</div>
-                    <div style={{ fontSize: "1rem", marginBottom: "20px", textAlign: "center" }}><b><a href="mailto: office@fonis.rs" style={{ textDecoration: "none", color: "rgba(66, 189, 222, 1)" }} >office@fonis.rs</a></b></div>
+                    <div style={{ fontSize: "1rem", marginBottom: "20px", textAlign: "center" }}><b><a href="mailto: hakaton@fonis.rs" style={{ textDecoration: "none", color: "rgba(66, 189, 222, 1)" }} >hakaton@fonis.rs</a></b></div>
 
                 </div>
                 :
