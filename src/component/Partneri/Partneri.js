@@ -31,6 +31,8 @@ import PRLogo from '../Landing/img/PRLogo.png'
 import CentarLogo from '../Landing/img/CentarLogo.png'
 import SSLogo from '../Landing/img/SSLogo.png'
 import CZRKLogo from '../Landing/img/CZRKLogo.jpg'
+import CatenaLogo from '../Landing/img/CatenaLogo.jpg'
+import RaiffeisenLogo from '../Landing/img/RaiffeisenLogo.png'
 import 'react-multi-carousel/lib/styles.css';
 
 const Partneri = () => {
@@ -61,19 +63,50 @@ const Partneri = () => {
       <div className="partneri">
         <h1 className="naslov">PARTNERI</h1>
         <div className="naslov-partneri">
+          <h1>ZLATNI PARTNER</h1>
+        </div>
+        <div className="generalni-partneri" >
+          <a href="https://www.raiffeisenbank.rs/"><div className="sponzor-slika" id="zlatni">
+            <img src={RaiffeisenLogo} alt="RaiffeisenBank" />
+          </div>
+          </a>
+        </div>
+        <div className="naslov-partneri">
+          <h1>BRONZANI PARTNER</h1>
+        </div>
+        <div className="generalni-partneri" >
+          <a href="https://www.catenamedia.com/"><div className="sponzor-slika" id="bronzani">
+            <img src={CatenaLogo} alt="Catenamedia" />
+          </div>
+          </a>
+        </div>
+        <div className="naslov-partneri">
           <h1>GENERALNI</h1>
         </div>
         <div className="generalni-partneri">
 
-          <div className="sponzor-slika">
+          <a href="https://www.comtrade.com/"><div className="sponzor-slika">
             <img src={ComtradeLogo} alt="" />
           </div>
-          <div className="sponzor-slika">
+          </a>
+          <a href="https://guarana.rs/"><div className="sponzor-slika">
             <img src={Guarana} alt="" />
           </div>
-          <div className="sponzor-slika">
+          </a>
+          <a href="http://www.fon.bg.ac.rs/"><div className="sponzor-slika">
             <img src={FonLogo} alt="" />
           </div>
+          </a>
+        </div>
+        <div className="generalni-partneri">
+          <a href="https://www.raiffeisenbank.rs/"><div className="sponzor-slika">
+            <img src={RaiffeisenLogo} alt="" />
+          </div>
+          </a>
+          <a href="https://www.catenamedia.com/"><div className="sponzor-slika">
+            <img src={CatenaLogo} alt="" />
+          </div>
+          </a>
         </div>
         {/* <div className="naslov-partneri">
           <h1>ROBNI</h1>

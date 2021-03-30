@@ -58,6 +58,14 @@
   width: auto;
   height: 90%;
 }
+#zlatni{
+  width: 450px;
+  height: 230px;
+}
+#bronzani{
+  width: 420px;
+  height: 200px;
+}
 /*****slider***********/
 .slider{
   width: 90%;
@@ -104,6 +112,14 @@
   .card{
     width: 200px;
   } 
+  #zlatni{
+    width: 400px;
+    height: 180px;
+  }
+  #bronzani{
+    width: 400px;
+    height: 180px;
+  }
 }
 @media (max-width: 450px) {
   .sponzor-slika{
